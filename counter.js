@@ -5,7 +5,7 @@ function count() {
     document.querySelector('h1').innerHtml = counter;
 
     if (counter % 10 === 0){
-        alert('Count is now ${counter}');
+        alert(`Count is now ${counter}`);
     }
 }
 
