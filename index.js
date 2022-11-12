@@ -11,5 +11,5 @@ function count() {
     counter++;
     let txt_counter = document.querySelector('#txt-counter');
     //let string = 'Count is now ${counter}';
-    txt_counter.innerHTML = 'Count is now ${counter}';
+    txt_counter.innerHTML = 'Count is now ' + counter;
 }
