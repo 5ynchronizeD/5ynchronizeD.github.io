@@ -5,17 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Github Page</title>
     <script>
-        let counter = 0;
+       let counter = 0;
 
-        function counter() {
-            counter++;
-            document.querySelector("h1").innerHTML = counter;
-        }
-
+       function count() {
+        counter++;
+        document.querySelector('#counter').innerHTML = counter;
+       }
     </script>
 </head>
 <body>
-    <h1>Hello!</h1>
-    <button onclick="hello()">Click Here</button>
+    <h1 id="counter">Hello!</h1>
+    <button onclick="count()">Click Here</button>
 </body>
 </html>
