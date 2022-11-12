@@ -4,9 +4,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Github Page</title>
+    <script>
+        let counter = 0;
+
+        function counter() {
+            counter++;
+            document.querySelector("h1").innerHTML = counter;
+        }
+
+    </script>
 </head>
 <body>
-    
-    <h1>This is my github page</h1>
+    <h1>Hello!</h1>
+    <button onclick="hello()">Click Here</button>
 </body>
 </html>
